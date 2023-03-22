@@ -12,11 +12,15 @@ for filename in os.listdir('static/images'):
 
 @app.route('/')
 def index():
-    return render_template('index.html', images=images)
+    return render_template('home.html')
 
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/gallery')
+def gallery():
+    return render_template('gallery.html', images = images)
 
 @app.route('/shop')
 def shop():

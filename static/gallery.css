@@ -1,5 +1,11 @@
+body {
+  background-color: #D8BFD8;
+}
+
 nav {
-    background-color: #a07cb2;
+    background-image: linear-gradient(to top, rgba(160, 124, 178, 0.5), transparent);  /* a07cb2 */
+
+    background-color: transparent;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -7,6 +13,8 @@ nav {
     z-index: 1;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
 ul {
     list-style: none;
