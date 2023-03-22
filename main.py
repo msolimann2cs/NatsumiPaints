@@ -11,7 +11,7 @@ for filename in os.listdir('static/images'):
 
 
 @app.route('/')
-def index():
+def home():
     return render_template('home.html')
 
 @app.route('/about')
